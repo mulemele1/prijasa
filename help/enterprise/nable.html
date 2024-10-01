@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from ninite.com/help/enterprise/nable.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 30 Sep 2024 06:32:22 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Using Ninite With N-Able | Ninite Help</title>
+<meta name="description" content="The easiest, fastest way to update or install software. Ninite downloads and installs programs automatically in the background.">
+<link rel="icon" type="image/png" href="../../static/favicon-50c60524c110e749f013a1ca48f80b80.png">
+<link href="../../static/css/bootstrap.min-ce67dc5fdca0309111ecf0491515e7a7.css" rel="stylesheet">
+<link href="../../static/css/ninite-08d598403b81d71f0982c129e7ba63b4.css" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="ninite-canvas">
+
+<nav class="navbar navbar-default navbar-static-top">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".js-navbar-collapse" aria-expanded="false">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand ninite-brand" href="../../index.html">
+<img src="../../static/img/brand-8a2e7c6ad769d6bc457c5c2b1a9743e8.png" alt="Ninite" class="ninite-brand-img">
+</a>
+</div>
+<div class="collapse navbar-collapse js-navbar-collapse">
+<ul class="nav navbar-nav navbar-right">
+
+
+<li><a href="../index.html">Help</a></li>
+<li><a href="../../feedback.html">Feedback</a></li>
+
+<li><a href="../../pro.html">Ninite Pro</a></li>
+<li><a href="../../signin/index.html">Sign into Pro</a></li>
+
+</ul>
+</div>
+</div>
+</nav>
+
+<div class="container">
+<div class="row">
+<div class="col-md-6 col-md-offset-3">
+
+<h3>Using Ninite With N-Able</h3>
+<p>Tim Wiser of <a href="http://www.orchidit.com/">Orchid IT</a>
+has kindly contributed
+some notes on using <a href="../../pro.html">Ninite Pro</a> with N-able.</p>
+<hr />
+<h2>Integrating NinitePro with N-central</h2>
+<p>This document covers the steps required to use NinitePro for updating managed
+devices within the N-central RMM product from N-able Technologies. After
+completing these steps you will have the ability to enable third party patch
+management on a customer-by-customer level. The patching process will occur at
+a time of your choosing on the first Tuesday of every month, aka “Patch
+Tuesday”. You can of course amend the schedule to suit your own needs.</p>
+<p>Before you start, ensure that each site that you wish to use this on has domain
+administrator (or local administrator) credentials specified at the customer
+site level. Without these, the scheduled task will not run correctly due to a
+lack of permissions.</p>
+<p>1. Launch Notepad and type the following lines:</p>
+<pre class="help-pre-wide">
+@Echo off
+if NOT exist C:\WINDOWS\NinitePro.exe echo NinitePro.exe not found && exit /b 1
+C:\WINDOWS\NinitePro.exe /nocache /silent . /updateonly /disableautoupdate
+</pre>
+<p>2. Save the file as NiniteUpdate.bat</p>
+<p>3. From the SO level, click <em>Configuration -> Scheduled Tasks -> Script/Software Repository</em></p>
+<p>4. Click <em>Add -> Scripting</em></p>
+<p>5. Name the new scripting task <em>Patch local applications using NinitePro</em></p>
+<p>6. Upload the <em>NiniteUpdate.bat</em> file</p>
+<p>7. Click <em>OK</em></p>
+<p><img src="../../static/help/nable1-5482ed0c41485b2efe1b70638ecea952.png" class="img-responsive" alt="Ninite Online Installer Package"></p>
+<p>8. Click <em>Add -> File Transfer</em></p>
+<p>9. Name the task <em>NinitePro</em></p>
+<p>10. Upload the <em>NinitePro.exe</em> file</p>
+<p>11. Click <em>OK</em></p>
+<p><img src="../../static/help/nable2-172f21f8493d1262d5daf1b81b42faef.png" class="img-responsive" alt="Ninite Online Installer Package"></p>
+<p>12. From the SO level, click <em>Configuration -> Scheduled Tasks ->Profiles</em></p>
+<p>13. Click <em>Add</em></p>
+<p>14. Name the new profile <em>Patch management using NinitePro</em></p>
+<p>15. Underneath <em>Details</em>, click <em>Add</em></p>
+<p>16. Select <em>Scripting</em></p>
+<p>17. Set the task name to <em>Update local apps using NinitePro</em></p>
+<p>18. Set the <em>Repository Item</em> to be <em>Patch local applications using NinitePro</em>.
+This will populate the <em>Filename</em> and <em>Command Line Parameters</em> fields
+automatically</p>
+<p>19. Set the schedule <em>Type</em> to be <em>Recurring</em></p>
+<p>20. Set the schedule <em>Interval</em> to be <em>Monthly</em></p>
+<p>21. Specify the time that you wish the patch process to start, and click <em>Add</em></p>
+<p>22. Set the <em>Day of the Week</em> to be <em>Tue</em></p>
+<p>23. Set the <em>Week of the Month</em> to be <em>1</em></p>
+<p>24. Click the <em>Save</em> button. You will be returned to the <em>Edit Scheduled Task
+Profile</em> screen</p>
+<p>25. Underneath <em>Details</em>, click <em>Add</em></p>
+<p>26. Select <em>File Transfer</em></p>
+<p>27. Set the task name to <em>Copy NinitePro into WINDOWS folder</em></p>
+<p>28. Set the <em>Repository Item</em> to be <em>NinitePro</em></p>
+<p>29. Click the <em>Overwrite</em> option</p>
+<p>30. Set the <em>Remote Location</em> field to be <em>C:\WINDOWS</em></p>
+<p>31. Set the schedule <em>Type</em> to be <em>Once</em></p>
+<p>32. Increase the <em>If the machine is offline at the specified time…</em> option to
+be <em>30 days</em></p>
+<p>33. Click <em>Save</em></p>
+<p><img src="../../static/help/nable3-947120e5cb98f9b3b3c27a09d4a95922.png" class="img-responsive" alt="Ninite Online Installer Package"></p>
+<p>34. From the SO level, click <em>Configuration -> Monitoring -> Rules</em></p>
+<p>35. Click <em>Add</em></p>
+<p>36. Name the rule <em>Patch management using NinitePro</em></p>
+<p>37. Transfer the following filters; <em>Laptops-Windows, Servers-Windows, Workstations-Windows</em></p>
+<p>38. Click the <em>Scheduled Task Profiles</em> tab</p>
+<p>39. Transfer the <em>Patch management using NinitePro</em> profile across</p>
+<p>40. Click the <em>Grant Customers/Sites Access</em> tab</p>
+<p>41. Transfer any customers who you wish to start patching with NinitePro</p>
+<p>42. Click <em>Save</em></p>
+<p>After a short delay, you will see your <em>Patch management using NinitePro</em> rule
+associated with applicable devices. The rule will automatically copy the
+<em>NinitePro.exe</em> utility into the <em>C:\WINDOWS</em> folder on devices in preparation for
+the scheduled task that you defined to run.</p>
+<p><img src="../../static/help/nable4-825abfe07d4e37cf9868dc8b22c9b793.png" class="img-responsive" alt="Ninite Online Installer Package"></p>
+<p>Author: Tim Wiser, <a href="http://www.orchidit.com/">Orchid IT</a></p>
+<p>Last updated 13 March 2012</p>
+<hr />
+<p>Thanks Tim!</p>
+<p>If you have other tips or feedback on using Ninite with N-able,
+<a href="../../feedback.html">please let us know</a>. Thanks!</p>
+<div class="panel panel-primary help-panel-pro">
+<div class="panel-heading">
+<h3 class="panel-title">Pro Classic only</h3>
+</div>
+<div class="panel-body">
+<p>
+These features are only available in Ninite Pro Classic.
+</p>
+<p>
+We're working on documentation for the new Pro web interface. For now the available help for that is inline in the interface.
+</p>
+<p>
+<a href="../../request_trial.html" class="btn btn-primary">Get a Free Trial</a> or <a href="../../pro.html" class="btn btn-default">Learn more about Ninite Pro</a>
+</p>
+</div>
+</div>
+
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="footer">
+<div class="container text-center">
+<ul class="list-inline">
+<li><a class="footer-link" href="../../jobs.html">jobs</a></li>
+<li><a class="footer-link" href="../../about.html">about</a></li>
+<li><a class="footer-link" href="../../press.html">press</a></li>
+<li><a class="footer-link" href="../../news.html">updates</a></li>
+<li><a class="footer-link" href="../../security.html">security</a></li>
+<li><a class="footer-link" href="../../privacy.html">privacy</a></li>
+<li><a class="footer-link" href="../../terms.html">terms</a></li>
+</ul>
+<p class="small">
+&copy; Secure by Design Inc
+</p>
+</div>
+</div>
+
+<script src="../../static/js/jquery-3.6.4.min-9663b61e980ed29d7a6ce3726c3714e6.js"></script>
+<script src="../../static/js/collapse-efe73e03e8fffec0dacb5abe412f4d78.js"></script>
+<script src="../../static/js/dropdown-54e9cfe90f65ad9a867ff67615ccac74.js"></script>
+<script src="../../static/js/masonry.pkgd.min-04eaba070e1a2d535fb026e5e7b5b399.js"></script>
+<script src="../../static/js/ninite-ccd74b2fb79726087e7e5cea74627caf.js"></script>
+</body>
+
+<!-- Mirrored from ninite.com/help/enterprise/nable.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 30 Sep 2024 06:32:22 GMT -->
+</html>

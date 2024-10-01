@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from ninite.com/help/how-ninite-works/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 30 Sep 2024 06:34:52 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How Ninite Works | Ninite Help</title>
+<meta name="description" content="The easiest, fastest way to update or install software. Ninite downloads and installs programs automatically in the background.">
+<link rel="icon" type="image/png" href="../../static/favicon-50c60524c110e749f013a1ca48f80b80.png">
+<link href="../../static/css/bootstrap.min-ce67dc5fdca0309111ecf0491515e7a7.css" rel="stylesheet">
+<link href="../../static/css/ninite-08d598403b81d71f0982c129e7ba63b4.css" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="ninite-canvas">
+
+<nav class="navbar navbar-default navbar-static-top">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".js-navbar-collapse" aria-expanded="false">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand ninite-brand" href="../../index.html">
+<img src="../../static/img/brand-8a2e7c6ad769d6bc457c5c2b1a9743e8.png" alt="Ninite" class="ninite-brand-img">
+</a>
+</div>
+<div class="collapse navbar-collapse js-navbar-collapse">
+<ul class="nav navbar-nav navbar-right">
+
+
+<li><a href="../index.html">Help</a></li>
+<li><a href="../../feedback.html">Feedback</a></li>
+
+<li><a href="../../pro.html">Ninite Pro</a></li>
+<li><a href="../../signin/index.html">Sign into Pro</a></li>
+
+</ul>
+</div>
+</div>
+</nav>
+
+<div class="container">
+<div class="row">
+<div class="col-md-6 col-md-offset-3">
+
+<h3>How Ninite Works</h3>
+<p>Ninite tries to behave exactly like a technical friend you've asked to
+install a few apps for you. This means that Ninite installers, regardless
+of when or where they were created:</p>
+<ul>
+<li>Say "No" to toolbars or other junk</li>
+<li>Always install the latest version of an app</li>
+<li>Install the right 32-bit or 64-bit version for a PC</li>
+<li>Install apps in the PC's language</li>
+<li>Skip apps that are already up-to-date</li>
+<li>Upgrade an app if it's out of date</li>
+</ul>
+<p>We put a ton of effort into making sure Ninite <strong>just does the right thing</strong>
+and we think that's a big reason why people like using it so much.</p>
+<h3>All the Details</h3>
+<p>When you make a Ninite installer at <a href="../../index.html">https://ninite.com</a>
+you're really making an entry in our database that records your app choices.
+This database entry is also associated with a random installer ID and,
+if you're using <a href="../../pro.html">Ninite Pro</a>, your account.</p>
+<p>Every Ninite installer you download is stamped with its installer ID. When
+you run an installer it asks our servers for the latest configuration info
+for its ID. This means <strong>Ninite installers always install the latest
+versions of apps, regardless of when they were created</strong>. It also means
+that Ninite installers need an internet connection to work. If you want to
+lock the version that gets installed or make a fully-offline installer we
+have a <a href="../features/offline.html">/freeze switch</a> in Ninite Pro.</p>
+<p>Once it gets the configuration info the installer checks for currently
+installed versions of the apps. Apps that are already up-to-date are
+skipped. This means <strong>you can run the same Ninite installer over and over
+again to keep apps current.</strong> If you need to repair an app that's already
+installed you can force a reinstallation by clicking the retry/reinstall
+link at the top of a completed Ninite installer.</p>
+<p>Now that Ninite knows which apps it's installing on this PC it begins to
+download and install each one. Downloads and installations work through
+the list of apps independently, so as the first app is being installed the
+second and third may be completely downloaded. Ninite Pro has a
+<a href="../features/cache.html">download cache</a> that often allows the download
+step to be skipped and lets Ninite Pro finish faster.</p>
+<p>Downloads come from the publishers' sites and are checked for correct
+digital signatures or matching SHA-1 hashes before Ninite uses them.
+<strong>Ninite automatically downloads and installs the proper 64-bit or 32-bit
+versions of apps. It also picks apps that match the PC's language setting.</strong>
+These selections are done at runtime so the same Ninite .exe can install
+64-bit Portuguese apps on one PC and 32-bit English ones on another.</p>
+<p>After downloading an app's installer and confirming its validity Ninite
+begins to install it. The specifics of this differ for each app but our
+most general technique is to hide the installer's window when we
+run it and then automate the proper clicks and input to install the app
+right. <strong>Ninite's automation says "No" to any toolbars or other junk</strong>
+just like if you asked a technical friend to install an app for you.
+Settings like installation location are left as their defaults.</p>
+<p>And that's how Ninite installs an app.</p>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="footer">
+<div class="container text-center">
+<ul class="list-inline">
+<li><a class="footer-link" href="../../jobs.html">jobs</a></li>
+<li><a class="footer-link" href="../../about.html">about</a></li>
+<li><a class="footer-link" href="../../press.html">press</a></li>
+<li><a class="footer-link" href="../../news.html">updates</a></li>
+<li><a class="footer-link" href="../../security.html">security</a></li>
+<li><a class="footer-link" href="../../privacy.html">privacy</a></li>
+<li><a class="footer-link" href="../../terms.html">terms</a></li>
+</ul>
+<p class="small">
+&copy; Secure by Design Inc
+</p>
+</div>
+</div>
+
+<script src="../../static/js/jquery-3.6.4.min-9663b61e980ed29d7a6ce3726c3714e6.js"></script>
+<script src="../../static/js/collapse-efe73e03e8fffec0dacb5abe412f4d78.js"></script>
+<script src="../../static/js/dropdown-54e9cfe90f65ad9a867ff67615ccac74.js"></script>
+<script src="../../static/js/masonry.pkgd.min-04eaba070e1a2d535fb026e5e7b5b399.js"></script>
+<script src="../../static/js/ninite-ccd74b2fb79726087e7e5cea74627caf.js"></script>
+</body>
+
+<!-- Mirrored from ninite.com/help/how-ninite-works/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 30 Sep 2024 06:34:52 GMT -->
+</html>

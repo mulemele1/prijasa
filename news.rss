@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>Ninite Updates</title>
+  <description>The latest app updates and additions from Ninite.com</description>
+  <link>https://ninite.com/news</link>
+  <atom:link href="https://ninite.com/news.rss" rel="self" type="application/rss+xml" />
+
+
+  <item>
+    <title>LibreOffice updated to 24.8.2.</title>
+    <pubDate>Fri, 27 Sep 2024 15:16:43 -0000</pubDate>
+    <link>https://ninite.com/libreoffice/</link>
+    <guid isPermaLink="false">f9b2400cadbc9dd27a530a1fbd2840e1</guid>
+  </item>
+
+  <item>
+    <title>Edge updated to 129.0.2792.65.</title>
+    <pubDate>Fri, 27 Sep 2024 02:03:06 -0000</pubDate>
+    <link>https://ninite.com/edge/</link>
+    <guid isPermaLink="false">c968646629df6417d0c0a9814c5c8584</guid>
+  </item>
+
+  <item>
+    <title>Skype updated to 8.129.0.201.</title>
+    <pubDate>Thu, 26 Sep 2024 17:25:25 -0000</pubDate>
+    <link>https://ninite.com/skype/</link>
+    <guid isPermaLink="false">106b78cab0c1edebb184aa83c7f94610</guid>
+  </item>
+
+  <item>
+    <title>Foxit Reader updated to 2024.3.0.26795.</title>
+    <pubDate>Thu, 26 Sep 2024 16:08:22 -0000</pubDate>
+    <link>https://ninite.com/foxit/</link>
+    <guid isPermaLink="false">41710b29e960cad9b529c7af89793bbe</guid>
+  </item>
+
+  <item>
+    <title>Zoom updated to 6.2.2.47417.</title>
+    <pubDate>Thu, 26 Sep 2024 14:14:08 -0000</pubDate>
+    <link>https://ninite.com/zoom/</link>
+    <guid isPermaLink="false">30d037dd582162ac56dd22846e9288e0</guid>
+  </item>
+
+  <item>
+    <title>Discord updated to 1.0.9164.</title>
+    <pubDate>Thu, 26 Sep 2024 13:31:05 -0000</pubDate>
+    <link>https://ninite.com/discord/</link>
+    <guid isPermaLink="false">b4bd2f4d4ce94caf3d2770d1a8387188</guid>
+  </item>
+
+  <item>
+    <title>Spotify updated to 1.2.47.364.</title>
+    <pubDate>Wed, 25 Sep 2024 18:24:29 -0000</pubDate>
+    <link>https://ninite.com/spotify/</link>
+    <guid isPermaLink="false">8732914b1981aebefc70bf14baa3d30f</guid>
+  </item>
+
+  <item>
+    <title>Opera Chromium updated to 114.0.5282.21.</title>
+    <pubDate>Wed, 25 Sep 2024 18:24:18 -0000</pubDate>
+    <link>https://ninite.com/operaChromium/</link>
+    <guid isPermaLink="false">c693032f7a50a95d61eea3285a39715e</guid>
+  </item>
+
+  <item>
+    <title>Krita updated to 5.2.5.</title>
+    <pubDate>Wed, 25 Sep 2024 18:24:10 -0000</pubDate>
+    <link>https://ninite.com/krita/</link>
+    <guid isPermaLink="false">4627520036a0ab726c63d9b68fe721c3</guid>
+  </item>
+
+  <item>
+    <title>Revo updated to 2.5.0.</title>
+    <pubDate>Wed, 25 Sep 2024 13:40:13 -0000</pubDate>
+    <link>https://ninite.com/revo/</link>
+    <guid isPermaLink="false">45e1f858a04a775554435d9a7ef3591a</guid>
+  </item>
+
+  <item>
+    <title>Blender updated to 4.2.2.</title>
+    <pubDate>Wed, 25 Sep 2024 13:36:43 -0000</pubDate>
+    <link>https://ninite.com/blender/</link>
+    <guid isPermaLink="false">095eb4fceba7c07190f047b20a604ad6</guid>
+  </item>
+
+  <item>
+    <title>Opera Chromium updated to 113.0.5230.132.</title>
+    <pubDate>Tue, 24 Sep 2024 21:43:23 -0000</pubDate>
+    <link>https://ninite.com/operaChromium/</link>
+    <guid isPermaLink="false">75907fcbee631dcd3978e09bb612e2b2</guid>
+  </item>
+
+  <item>
+    <title>Chrome updated to 129.0.6668.71.</title>
+    <pubDate>Tue, 24 Sep 2024 21:43:11 -0000</pubDate>
+    <link>https://ninite.com/chrome/</link>
+    <guid isPermaLink="false">20c635a99f3ab697bfb656b43fc5ee92</guid>
+  </item>
+
+  <item>
+    <title>TeamViewer 15 updated to 15.58.4.</title>
+    <pubDate>Tue, 24 Sep 2024 21:43:01 -0000</pubDate>
+    <link>https://ninite.com/teamviewer15/</link>
+    <guid isPermaLink="false">28aa22f3e7b375f8064985293b555520</guid>
+  </item>
+
+  <item>
+    <title>Edge updated to 129.0.2792.52.</title>
+    <pubDate>Fri, 20 Sep 2024 00:47:11 -0000</pubDate>
+    <link>https://ninite.com/edge/</link>
+    <guid isPermaLink="false">c3422a9292954cd5f8ec30615cc77562</guid>
+  </item>
+
+  <item>
+    <title>foobar2000 updated to 2.1.6.</title>
+    <pubDate>Fri, 20 Sep 2024 00:46:48 -0000</pubDate>
+    <link>https://ninite.com/foobar/</link>
+    <guid isPermaLink="false">35642da4e9a734ae4cc8895ae6259101</guid>
+  </item>
+
+  <item>
+    <title>CCleaner updated to 6.28.11297.</title>
+    <pubDate>Thu, 19 Sep 2024 18:07:25 -0000</pubDate>
+    <link>https://ninite.com/ccleaner/</link>
+    <guid isPermaLink="false">d0533162735fd53e2a6aaaa0e9141b7c</guid>
+  </item>
+
+  <item>
+    <title>Audacity updated to 3.6.4.</title>
+    <pubDate>Thu, 19 Sep 2024 17:29:57 -0000</pubDate>
+    <link>https://ninite.com/audacity/</link>
+    <guid isPermaLink="false">7db6f9c9f3d9d7d5b12de37dc18227a6</guid>
+  </item>
+
+  <item>
+    <title>Google Drive for Desktop updated to 97.0.1.0.</title>
+    <pubDate>Wed, 18 Sep 2024 20:13:37 -0000</pubDate>
+    <link>https://ninite.com/googledrivefordesktop/</link>
+    <guid isPermaLink="false">77d42de02a2fd8e72a48da5bff5b6600</guid>
+  </item>
+
+  <item>
+    <title>Dropbox updated to 208.4.5824.</title>
+    <pubDate>Wed, 18 Sep 2024 18:14:21 -0000</pubDate>
+    <link>https://ninite.com/dropbox/</link>
+    <guid isPermaLink="false">d316109b51b63a326b68fb10120d2cfe</guid>
+  </item>
+
+  <item>
+    <title>Chrome updated to 129.0.6668.59.</title>
+    <pubDate>Wed, 18 Sep 2024 14:04:50 -0000</pubDate>
+    <link>https://ninite.com/chrome/</link>
+    <guid isPermaLink="false">896748ee0f4c28f261465f61fcbd6e36</guid>
+  </item>
+
+  <item>
+    <title>Discord updated to 1.0.9059.</title>
+    <pubDate>Tue, 17 Sep 2024 18:43:44 -0000</pubDate>
+    <link>https://ninite.com/discord/</link>
+    <guid isPermaLink="false">a1f29481c803842992388ffe8a5fe560</guid>
+  </item>
+
+  <item>
+    <title>qBittorrent updated to 4.6.7.</title>
+    <pubDate>Tue, 17 Sep 2024 18:43:26 -0000</pubDate>
+    <link>https://ninite.com/qbittorrent/</link>
+    <guid isPermaLink="false">d2e78edf4a1023c1ae495b3f8c6f6b8f</guid>
+  </item>
+
+  <item>
+    <title>Notepad++ updated to 8.7.</title>
+    <pubDate>Tue, 17 Sep 2024 18:43:17 -0000</pubDate>
+    <link>https://ninite.com/notepadplusplus/</link>
+    <guid isPermaLink="false">a6bed7460654cf87998cfcf4cbf86a3a</guid>
+  </item>
+
+  <item>
+    <title>Firefox updated to 130.0.1.</title>
+    <pubDate>Tue, 17 Sep 2024 16:30:43 -0000</pubDate>
+    <link>https://ninite.com/firefox/</link>
+    <guid isPermaLink="false">ec0ba819257ec3e56abad2ff23cb4ae6</guid>
+  </item>
+
+  <item>
+    <title>AVG updated to 24.9.3350.</title>
+    <pubDate>Tue, 17 Sep 2024 12:19:54 -0000</pubDate>
+    <link>https://ninite.com/avg/</link>
+    <guid isPermaLink="false">47c396333bcb12c9ecaaee2d7a640918</guid>
+  </item>
+
+  <item>
+    <title>Avast updated to 24.9.6130.</title>
+    <pubDate>Tue, 17 Sep 2024 12:19:47 -0000</pubDate>
+    <link>https://ninite.com/avast/</link>
+    <guid isPermaLink="false">1d4973017af1cde9b994002c55a0a56d</guid>
+  </item>
+
+  <item>
+    <title>Trillian updated to 6.5.0.45.</title>
+    <pubDate>Mon, 16 Sep 2024 21:09:46 -0000</pubDate>
+    <link>https://ninite.com/trillian/</link>
+    <guid isPermaLink="false">9d04b42e414df2946e63f82993c5e6c3</guid>
+  </item>
+
+  <item>
+    <title>Discord updated to 1.0.9163.</title>
+    <pubDate>Mon, 16 Sep 2024 18:20:23 -0000</pubDate>
+    <link>https://ninite.com/discord/</link>
+    <guid isPermaLink="false">3a7782c5e7f16e665ed10e9a3317a003</guid>
+  </item>
+
+  <item>
+    <title>Skype updated to 8.128.0.207.</title>
+    <pubDate>Mon, 16 Sep 2024 14:09:01 -0000</pubDate>
+    <link>https://ninite.com/skype/</link>
+    <guid isPermaLink="false">b546b600e7f02cb2350fdf781b8ee50c</guid>
+  </item>
+
+  <item>
+    <title>Zoom updated to 6.2.0.46690.</title>
+    <pubDate>Sat, 14 Sep 2024 17:19:08 -0000</pubDate>
+    <link>https://ninite.com/zoom/</link>
+    <guid isPermaLink="false">90caaba6881fa07caf52b19c522770d0</guid>
+  </item>
+
+  <item>
+    <title>Edge updated to 128.0.2739.79.</title>
+    <pubDate>Fri, 13 Sep 2024 17:58:17 -0000</pubDate>
+    <link>https://ninite.com/edge/</link>
+    <guid isPermaLink="false">f646c9a6ea07cfa1335160d915c32aab</guid>
+  </item>
+
+  <item>
+    <title>Visual Studio Code updated to 1.93.1.</title>
+    <pubDate>Thu, 12 Sep 2024 18:25:40 -0000</pubDate>
+    <link>https://ninite.com/vscode/</link>
+    <guid isPermaLink="false">5cf75e5d853f837a6d183044e3b2eb4e</guid>
+  </item>
+
+  <item>
+    <title>LibreOffice updated to 24.8.1.</title>
+    <pubDate>Thu, 12 Sep 2024 18:25:22 -0000</pubDate>
+    <link>https://ninite.com/libreoffice/</link>
+    <guid isPermaLink="false">ab58b185e8c32f2027106decf958ec47</guid>
+  </item>
+
+  <item>
+    <title>iTunes updated to 12.13.3.2.</title>
+    <pubDate>Thu, 12 Sep 2024 18:24:04 -0000</pubDate>
+    <link>https://ninite.com/itunes/</link>
+    <guid isPermaLink="false">8a55d7b8468fcefa0bf21243b3232de9</guid>
+  </item>
+
+  <item>
+    <title>Eclipse updated to 4.33.0.</title>
+    <pubDate>Wed, 11 Sep 2024 16:23:43 -0000</pubDate>
+    <link>https://ninite.com/eclipse/</link>
+    <guid isPermaLink="false">ce7c43f9120d7e8ac9656f7c3625bba2</guid>
+  </item>
+
+  <item>
+    <title>XnView updated to 2.51.7.</title>
+    <pubDate>Wed, 11 Sep 2024 15:22:29 -0000</pubDate>
+    <link>https://ninite.com/xnview/</link>
+    <guid isPermaLink="false">7e4c5689f6d9059861181ae87225d6a1</guid>
+  </item>
+
+  <item>
+    <title>Chrome updated to 128.0.6613.138.</title>
+    <pubDate>Wed, 11 Sep 2024 14:17:38 -0000</pubDate>
+    <link>https://ninite.com/chrome/</link>
+    <guid isPermaLink="false">4965dd4a993a28a459daa5b33e48e8fd</guid>
+  </item>
+
+  <item>
+    <title>Dropbox updated to 207.4.5821.</title>
+    <pubDate>Tue, 10 Sep 2024 20:30:23 -0000</pubDate>
+    <link>https://ninite.com/dropbox/</link>
+    <guid isPermaLink="false">b05f35212187637c1fdad18682b6af3e</guid>
+  </item>
+
+  <item>
+    <title>WinSCP updated to 6.3.5.</title>
+    <pubDate>Tue, 10 Sep 2024 18:15:34 -0000</pubDate>
+    <link>https://ninite.com/winscp/</link>
+    <guid isPermaLink="false">938de11f1c8a9872e7b29e8ef834d49a</guid>
+  </item>
+
+  <item>
+    <title>Audacity updated to 3.6.3.</title>
+    <pubDate>Mon, 09 Sep 2024 18:13:31 -0000</pubDate>
+    <link>https://ninite.com/audacity/</link>
+    <guid isPermaLink="false">bd9103aec34f7e2fba296c4222938583</guid>
+  </item>
+
+  <item>
+    <title>NVDA updated to 2024.3.1.</title>
+    <pubDate>Mon, 09 Sep 2024 17:56:31 -0000</pubDate>
+    <link>https://ninite.com/nvda/</link>
+    <guid isPermaLink="false">9309476487c3e4b2ce92d0cdafa0bc6e</guid>
+  </item>
+
+  <item>
+    <title>Glary updated to 6.15.0.19.</title>
+    <pubDate>Mon, 09 Sep 2024 17:56:22 -0000</pubDate>
+    <link>https://ninite.com/glary/</link>
+    <guid isPermaLink="false">9332433bd9b3f9ab168c3d48ed3eed22</guid>
+  </item>
+
+  <item>
+    <title>Malwarebytes updated to 5.1.10.127.</title>
+    <pubDate>Sun, 08 Sep 2024 16:33:18 -0000</pubDate>
+    <link>https://ninite.com/malwarebytes/</link>
+    <guid isPermaLink="false">e1810c5738e21096c9b6d945d1bbd06e</guid>
+  </item>
+
+  <item>
+    <title>Python x64 3 updated to 3.12.6.</title>
+    <pubDate>Sat, 07 Sep 2024 16:31:08 -0000</pubDate>
+    <link>https://ninite.com/pythonx3/</link>
+    <guid isPermaLink="false">2fcd477031043a25f48b5dd997af2ede</guid>
+  </item>
+
+  <item>
+    <title>Python 3 updated to 3.12.6.</title>
+    <pubDate>Sat, 07 Sep 2024 16:31:00 -0000</pubDate>
+    <link>https://ninite.com/python3/</link>
+    <guid isPermaLink="false">ccfc196a1a14793a4c9784b81a160d47</guid>
+  </item>
+
+  <item>
+    <title>Discord updated to 1.0.9162.</title>
+    <pubDate>Fri, 06 Sep 2024 19:35:59 -0000</pubDate>
+    <link>https://ninite.com/discord/</link>
+    <guid isPermaLink="false">4e4e6b48b5f5fa516c4d834a26f132d1</guid>
+  </item>
+
+  <item>
+    <title>Edge updated to 128.0.2739.67.</title>
+    <pubDate>Fri, 06 Sep 2024 04:49:30 -0000</pubDate>
+    <link>https://ninite.com/edge/</link>
+    <guid isPermaLink="false">e15f8303c063e51172cff8a3673d9279</guid>
+  </item>
+
+  <item>
+    <title>Visual Studio Code updated to 1.93.0.</title>
+    <pubDate>Thu, 05 Sep 2024 19:56:44 -0000</pubDate>
+    <link>https://ninite.com/vscode/</link>
+    <guid isPermaLink="false">809cea08303f78bd551143ac360109d9</guid>
+  </item>
+
+  <item>
+    <title>TeamViewer 15 updated to 15.57.5.</title>
+    <pubDate>Thu, 05 Sep 2024 19:27:11 -0000</pubDate>
+    <link>https://ninite.com/teamviewer15/</link>
+    <guid isPermaLink="false">1afb8860b252be637c9b48c0c3237a06</guid>
+  </item>
+
+  <item>
+    <title>Thunderbird updated to 115.15.0.</title>
+    <pubDate>Thu, 05 Sep 2024 16:53:45 -0000</pubDate>
+    <link>https://ninite.com/thunderbird/</link>
+    <guid isPermaLink="false">3c976c86781bb28727c30833f77227c8</guid>
+  </item>
+
+  <item>
+    <title>Firefox updated to 130.0.</title>
+    <pubDate>Wed, 04 Sep 2024 16:53:39 -0000</pubDate>
+    <link>https://ninite.com/firefox/</link>
+    <guid isPermaLink="false">41380e36bc64688e7775f1543784524b</guid>
+  </item>
+
+  <item>
+    <title>Opera Chromium updated to 113.0.5230.62.</title>
+    <pubDate>Wed, 04 Sep 2024 14:24:59 -0000</pubDate>
+    <link>https://ninite.com/operaChromium/</link>
+    <guid isPermaLink="false">5f151ca24e52995baa210e1a243d2c1d</guid>
+  </item>
+
+  <item>
+    <title>Audacity updated to 3.6.2.</title>
+    <pubDate>Tue, 03 Sep 2024 20:49:40 -0000</pubDate>
+    <link>https://ninite.com/audacity/</link>
+    <guid isPermaLink="false">a3db229eaa1805b10d113a302a9e3076</guid>
+  </item>
+
+  <item>
+    <title>Edge updated to 128.0.2739.63.</title>
+    <pubDate>Tue, 03 Sep 2024 20:17:15 -0000</pubDate>
+    <link>https://ninite.com/edge/</link>
+    <guid isPermaLink="false">c18ddd872882891272ff3c47bde2e391</guid>
+  </item>
+
+  <item>
+    <title>K-Lite Codecs updated to 18.5.5.</title>
+    <pubDate>Tue, 03 Sep 2024 03:54:00 -0000</pubDate>
+    <link>https://ninite.com/klitecodecs/</link>
+    <guid isPermaLink="false">097085d9177476eaae43b5448fb2b7d1</guid>
+  </item>
+
+  <item>
+    <title>Opera Chromium updated to 113.0.5230.55.</title>
+    <pubDate>Tue, 03 Sep 2024 03:53:54 -0000</pubDate>
+    <link>https://ninite.com/operaChromium/</link>
+    <guid isPermaLink="false">55c7e7b82bd9563bc5dc97c7bd99f86c</guid>
+  </item>
+
+  <item>
+    <title>Chrome updated to 128.0.6613.120.</title>
+    <pubDate>Tue, 03 Sep 2024 03:24:00 -0000</pubDate>
+    <link>https://ninite.com/chrome/</link>
+    <guid isPermaLink="false">184b49e4abaad6c17636f7a48569a8ef</guid>
+  </item>
+
+  <item>
+    <title>Spotify updated to 1.2.45.454.</title>
+    <pubDate>Fri, 30 Aug 2024 13:30:49 -0000</pubDate>
+    <link>https://ninite.com/spotify/</link>
+    <guid isPermaLink="false">8524b0cbee176491cb57a08ff3b55cc3</guid>
+  </item>
+
+  <item>
+    <title>Discord updated to 1.0.9161.</title>
+    <pubDate>Fri, 30 Aug 2024 13:30:22 -0000</pubDate>
+    <link>https://ninite.com/discord/</link>
+    <guid isPermaLink="false">014ef62d7e7cd01a2ce543fda43abc33</guid>
+  </item>
+
+  <item>
+    <title>Edge updated to 128.0.2739.54.</title>
+    <pubDate>Fri, 30 Aug 2024 04:49:42 -0000</pubDate>
+    <link>https://ninite.com/edge/</link>
+    <guid isPermaLink="false">96588d114c96251de3130a2217ab43af</guid>
+  </item>
+
+  <item>
+    <title>Skype updated to 8.127.0.200.</title>
+    <pubDate>Thu, 29 Aug 2024 18:48:15 -0000</pubDate>
+    <link>https://ninite.com/skype/</link>
+    <guid isPermaLink="false">d9b7acf4aab7e61fa1922bf435d3618a</guid>
+  </item>
+
+  <item>
+    <title>Opera Chromium updated to 113.0.5230.47.</title>
+    <pubDate>Thu, 29 Aug 2024 18:38:29 -0000</pubDate>
+    <link>https://ninite.com/operaChromium/</link>
+    <guid isPermaLink="false">f7da4660f877a39ebd49521d0e2adff3</guid>
+  </item>
+
+  <item>
+    <title>Google Drive for Desktop updated to 96.0.0.0.</title>
+    <pubDate>Thu, 29 Aug 2024 18:35:43 -0000</pubDate>
+    <link>https://ninite.com/googledrivefordesktop/</link>
+    <guid isPermaLink="false">bde891468cbeaa7065f37496cfbf5cae</guid>
+  </item>
+
+  <item>
+    <title>Chrome updated to 128.0.6613.114.</title>
+    <pubDate>Thu, 29 Aug 2024 04:27:38 -0000</pubDate>
+    <link>https://ninite.com/chrome/</link>
+    <guid isPermaLink="false">9a1fad7ae51252c4626e3b4c9325eddd</guid>
+  </item>
+
+  <item>
+    <title>Malwarebytes updated to 5.1.9.124.</title>
+    <pubDate>Wed, 28 Aug 2024 15:42:18 -0000</pubDate>
+    <link>https://ninite.com/malwarebytes/</link>
+    <guid isPermaLink="false">74cedd8a750d6680f6eba14d37a18412</guid>
+  </item>
+
+  <item>
+    <title>TeamViewer 15 updated to 15.57.3.</title>
+    <pubDate>Tue, 27 Aug 2024 14:32:41 -0000</pubDate>
+    <link>https://ninite.com/teamviewer15/</link>
+    <guid isPermaLink="false">039d070c3adc8c80e32a03c989598e0b</guid>
+  </item>
+
+  <item>
+    <title>Zoom updated to 6.1.11.45504.</title>
+    <pubDate>Mon, 26 Aug 2024 12:51:06 -0000</pubDate>
+    <link>https://ninite.com/zoom/</link>
+    <guid isPermaLink="false">ef41a444e1e916ef07a2c15193f6351c</guid>
+  </item>
+
+  <item>
+    <title>Opera Chromium updated to 113.0.5230.32.</title>
+    <pubDate>Sat, 24 Aug 2024 11:32:46 -0000</pubDate>
+    <link>https://ninite.com/operaChromium/</link>
+    <guid isPermaLink="false">f826ecc9687f8482b956f192f2c13147</guid>
+  </item>
+
+  <item>
+    <title>Discord updated to 1.0.9159.</title>
+    <pubDate>Fri, 23 Aug 2024 11:22:03 -0000</pubDate>
+    <link>https://ninite.com/discord/</link>
+    <guid isPermaLink="false">a4cd4e82418fa32480c4006129db8f16</guid>
+  </item>
+
+  <item>
+    <title>LibreOffice updated to 24.8.0.</title>
+    <pubDate>Fri, 23 Aug 2024 00:59:57 -0000</pubDate>
+    <link>https://ninite.com/libreoffice/</link>
+    <guid isPermaLink="false">1d360e20fc9ed5f6ff5cbe0f0a497e59</guid>
+  </item>
+
+  <item>
+    <title>Opera Chromium updated to 113.0.5230.31.</title>
+    <pubDate>Fri, 23 Aug 2024 00:59:30 -0000</pubDate>
+    <link>https://ninite.com/operaChromium/</link>
+    <guid isPermaLink="false">a67e1146cd11d8c2ef8e9662a110df9d</guid>
+  </item>
+
+  <item>
+    <title>Edge updated to 128.0.2739.42.</title>
+    <pubDate>Fri, 23 Aug 2024 00:43:11 -0000</pubDate>
+    <link>https://ninite.com/edge/</link>
+    <guid isPermaLink="false">e51b13b864ac8bd05ddb83f0261a4d11</guid>
+  </item>
+
+  <item>
+    <title>Avast updated to 24.8.6127.</title>
+    <pubDate>Thu, 22 Aug 2024 03:54:19 -0000</pubDate>
+    <link>https://ninite.com/avast/</link>
+    <guid isPermaLink="false">dc4cd16e3337a44d3d8118307a85a0bd</guid>
+  </item>
+
+  <item>
+    <title>CCleaner updated to 6.27.11214.</title>
+    <pubDate>Thu, 22 Aug 2024 03:35:04 -0000</pubDate>
+    <link>https://ninite.com/ccleaner/</link>
+    <guid isPermaLink="false">a62d94f0cb24c2b7a57f1d8697abd6dd</guid>
+  </item>
+
+  <item>
+    <title>AVG updated to 24.8.3347.</title>
+    <pubDate>Thu, 22 Aug 2024 03:33:50 -0000</pubDate>
+    <link>https://ninite.com/avg/</link>
+    <guid isPermaLink="false">16f9ad921feb62724a1760838691cad7</guid>
+  </item>
+
+  <item>
+    <title>Chrome updated to 128.0.6613.85.</title>
+    <pubDate>Thu, 22 Aug 2024 03:33:14 -0000</pubDate>
+    <link>https://ninite.com/chrome/</link>
+    <guid isPermaLink="false">d6ccaa2c5a7ffbe447b5c58a56817fac</guid>
+  </item>
+
+  <item>
+    <title>Dropbox updated to 206.4.6506.</title>
+    <pubDate>Wed, 21 Aug 2024 05:53:16 -0000</pubDate>
+    <link>https://ninite.com/dropbox/</link>
+    <guid isPermaLink="false">fd0849ecd82e299f723a1e33e67a2793</guid>
+  </item>
+
+  <item>
+    <title>Firefox updated to 129.0.2.</title>
+    <pubDate>Tue, 20 Aug 2024 20:19:24 -0000</pubDate>
+    <link>https://ninite.com/firefox/</link>
+    <guid isPermaLink="false">42a359f2ee7f884dae3823ee4071bf76</guid>
+  </item>
+
+  <item>
+    <title>Blender updated to 4.2.1.</title>
+    <pubDate>Tue, 20 Aug 2024 19:09:09 -0000</pubDate>
+    <link>https://ninite.com/blender/</link>
+    <guid isPermaLink="false">54c33a596b853e5aa26c0feaeffd2d1e</guid>
+  </item>
+
+  <item>
+    <title>qBittorrent updated to 4.6.6.</title>
+    <pubDate>Tue, 20 Aug 2024 16:03:56 -0000</pubDate>
+    <link>https://ninite.com/qbittorrent/</link>
+    <guid isPermaLink="false">dd711b09011ec1fde1457273859b7531</guid>
+  </item>
+
+  <item>
+    <title>NVDA updated to 2024.3.</title>
+    <pubDate>Mon, 19 Aug 2024 19:15:11 -0000</pubDate>
+    <link>https://ninite.com/nvda/</link>
+    <guid isPermaLink="false">55bdf84a7fff2788fd0bf005c88b00ef</guid>
+  </item>
+
+  <item>
+    <title>Zoom updated to 6.1.10.45028.</title>
+    <pubDate>Mon, 19 Aug 2024 19:13:08 -0000</pubDate>
+    <link>https://ninite.com/zoom/</link>
+    <guid isPermaLink="false">d4e3f3038578f39a72db69a3a6e3f4c3</guid>
+  </item>
+
+  <item>
+    <title>Skype updated to 8.126.0.208.</title>
+    <pubDate>Mon, 19 Aug 2024 19:10:54 -0000</pubDate>
+    <link>https://ninite.com/skype/</link>
+    <guid isPermaLink="false">54ebeb58e9d288a2da5cbdd6f45c29f6</guid>
+  </item>
+
+  <item>
+    <title>Glary updated to 6.14.0.18.</title>
+    <pubDate>Mon, 19 Aug 2024 19:10:40 -0000</pubDate>
+    <link>https://ninite.com/glary/</link>
+    <guid isPermaLink="false">0decf3d0579ece59bb2d0f0039f688bb</guid>
+  </item>
+
+  <item>
+    <title>PeaZip updated to 9.9.1.</title>
+    <pubDate>Mon, 19 Aug 2024 18:55:10 -0000</pubDate>
+    <link>https://ninite.com/peazip/</link>
+    <guid isPermaLink="false">28d7859a7743308b00bd4079d7c181f4</guid>
+  </item>
+
+
+</channel>
+</rss>

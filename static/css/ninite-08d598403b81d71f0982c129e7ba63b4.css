@@ -1,0 +1,162 @@
+.admin-signup-calendar td {
+  min-width: 40px;
+}
+
+.stattable th,
+.stattable td {
+  padding-right: 4px;
+}
+.statbar {
+  display: block;
+  height: 1.2em;
+  width: 10em;
+  position: relative;
+  box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.25);
+  background: #ff0;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(hsl(60, 100%, 60%)),
+    to(hsl(60, 100%, 40%))
+  );
+}
+.statbar_success,
+.statbar_error,
+.statbar_skipped {
+  display: block;
+  height: 100%;
+  float: left;
+}
+.statbar_success {
+  background: #080;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(hsl(120, 100%, 40%)),
+    to(hsl(120, 100%, 25%))
+  );
+}
+.statbar_error {
+  background: #f00;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(hsl(0, 100%, 55%)),
+    to(hsl(0, 100%, 35%))
+  );
+}
+.statbar_skipped {
+  background: #0f0;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(hsl(120, 100%, 60%)),
+    to(hsl(120, 100%, 40%))
+  );
+}
+
+.applist-table td {
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+
+.ninite-brand {
+  padding: 0;
+}
+.ninite-brand-img {
+  height: 58px;
+  width: 156px;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  background-color: #fff;
+}
+
+.help-index-row {
+  margin-top: -30px;
+}
+.help-panel-pro {
+  margin-top: 40px;
+}
+.help-pre-wide {
+  overflow: auto;
+  word-wrap: normal;
+  white-space: pre;
+}
+
+.homepage-introduction {
+  background: #eee;
+  margin-top: -20px;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+.homepage-app-section {
+  margin: 10px;
+  width: 235px;
+}
+.homepage-app-label {
+  display: block;
+  padding-left: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.homepage-app-label:hover {
+  background: #eee;
+}
+.homepage-job-alert {
+  margin-bottom: 0;
+}
+
+.embed-container {
+  background: #fff;
+  padding-bottom: 10px;
+}
+
+/* nicer navbar links on small screens */
+@media (max-width: 767px) {
+  .navbar-right {
+    clear: left;
+  }
+}
+
+.ninite-canvas {
+  background: #fff;
+  padding-bottom: 20px;
+  min-height: 90vh;
+}
+.footer {
+  padding-top: 10px;
+}
+.footer-link,
+.footer-link:hover,
+.footer {
+  color: #fff;
+}
+
+.press-row {
+  margin-top: 20px;
+}
+
+.pro-questions dt {
+  color: #3054bf;
+}
+.pro-questions dd {
+  margin-bottom: 25px;
+}
+.pro-section {
+  margin-bottom: 60px;
+}
+.pro-plans td,
+.pro-plans th {
+  min-width: 100px;
+  padding: 5px;
+}
+.pro-plans .btn {
+  min-width: 120px;
+}

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from ninite.com/help/features/remote.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 30 Sep 2024 06:21:02 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Use Ninite on Remote Machines | Ninite Help</title>
+<meta name="description" content="The easiest, fastest way to update or install software. Ninite downloads and installs programs automatically in the background.">
+<link rel="icon" type="image/png" href="../../static/favicon-50c60524c110e749f013a1ca48f80b80.png">
+<link href="../../static/css/bootstrap.min-ce67dc5fdca0309111ecf0491515e7a7.css" rel="stylesheet">
+<link href="../../static/css/ninite-08d598403b81d71f0982c129e7ba63b4.css" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="ninite-canvas">
+
+<nav class="navbar navbar-default navbar-static-top">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".js-navbar-collapse" aria-expanded="false">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand ninite-brand" href="../../index.html">
+<img src="../../static/img/brand-8a2e7c6ad769d6bc457c5c2b1a9743e8.png" alt="Ninite" class="ninite-brand-img">
+</a>
+</div>
+<div class="collapse navbar-collapse js-navbar-collapse">
+<ul class="nav navbar-nav navbar-right">
+
+
+<li><a href="../index.html">Help</a></li>
+<li><a href="../../feedback.html">Feedback</a></li>
+
+<li><a href="../../pro.html">Ninite Pro</a></li>
+<li><a href="../../signin/index.html">Sign into Pro</a></li>
+
+</ul>
+</div>
+</div>
+</nav>
+
+<div class="container">
+<div class="row">
+<div class="col-md-6 col-md-offset-3">
+
+
+<h3>Use Ninite on Remote Machines</h3>
+
+<p>To run Ninite on a remote machine, click 'Show remote options' in the
+lower-left corner of the Ninite Pro app selection window.</p>
+
+<p>Ninite has two different modes for discovering remote machines, Local Network and Active Directory.</p>
+
+<p>Ninite automatically checks if the current computer is part of a Windows domain, and if so it automatically switches to Active Directory (AD) mode and sets the AD path to the current domain.</p>
+
+<p>Users can switch between the two modes using the radio buttons below the network tree.</p>
+
+<h3>Active Directory Mode</h3>
+
+<p>Active Directory is also supported via the command line. Users can specify an AD path with the /remote switch using the "ad:" prefix:</p>
+
+<pre><code>NinitePro.exe /remote ad:my.domain.com
+</code></pre>
+
+<p>This can be used combination with the /silent switch. Ninite will then perform the requested operation on the machines specified by the AD path:</p>
+
+<pre><code>NinitePro.exe /remote ad:my.domain.com /audit /silent audit.txt
+</code></pre>
+
+<p>Multiple AD paths can be specified when using the /silent switch.</p>
+
+<p>Note: in an Active Directory environment it is recommended to run Ninite as a domain administrator</p>
+
+<p>Ninite accepts AD paths in various formats. Here are some advanced examples:</p>
+
+<p>All computers of the Organizational Unit (OU) called sales:</p>
+
+<pre><code>NinitePro.exe /remote "ad:OU=sales,DC=my,DC=domain,DC=com"
+</code></pre>
+
+<p>All computers of the sales OU, excluding any sub-OUs:</p>
+
+<pre><code>NinitePro.exe /remote "ad:OU=sales,DC=my,DC=domain,DC=com;;onelevel"
+</code></pre>
+
+<p>All computers in the domain whose name begins with Office:</p>
+
+<pre><code>NinitePro.exe /remote "ad:my.domain.com;(Name=Office*)"
+</code></pre>
+
+<p>All computers in the sales OU sales whose name begins with Office, exluding sub-OUs:</p>
+
+<pre><code>NinitePro.exe /remote "ad:OU=sales,DC=my,DC=domain,DC=com;(Name=Office*);onelevel"
+</code></pre>
+
+<p>The general format of Ninite's AD paths is as follows:</p>
+
+<pre><code>NinitePro.exe /remote "ad:[path];[searchfilter];[scope]"
+</code></pre>
+
+<p>The search filter and scope are optional.</p>
+
+<p>Search filters follow the standard LDAP syntax. An example filter is:</p>
+
+<pre><code>(Name=Office*)
+</code></pre>
+
+<p>More information on search filters can be found at <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/aa746475(v=vs.85).aspx">http://msdn.microsoft.com/en-us/library/windows/desktop/aa746475(v=vs.85).aspx</a></p>
+
+<p>The scope can be one of:</p>
+
+<pre><code>subtree (the default)
+onelevel (only finds the immediate child objects of the object referred to by the path)
+</code></pre>
+
+<h3>Local Network Mode</h3>
+
+<p><strong>The local network scanning can be a bit quirky and may not find all your machines.</strong>
+In that case you should create a file containing a list of
+remote machines (by name or IP, one per line) and start
+Ninite like:</p>
+
+<pre><code>NinitePro.exe /remote file:machines.txt
+</code></pre>
+
+<p>Note that this option can also be combined with other switches like
+/silent:</p>
+
+<pre><code>NinitePro.exe /remote file:machines.txt /updateonly /silent report.csv
+</code></pre>
+
+<p>You can also list machines right on the command line, for example</p>
+
+<pre><code>NinitePro.exe /remote workstation1 workstation2 /select Flash Java /silent report.csv
+</code></pre>
+
+<p>You can specify different user credentials with the /remoteauth switch:</p>
+
+<pre><code>NinitePro.exe /remote 192.168.250.147 /remoteauth admin password /audit /silent report.txt
+</code></pre>
+
+<h3>Fixing Connection Problems</h3>
+
+<p>If Ninite is having trouble connecting to your machines, we have
+<a href="../enterprise/connections.html">more details on connection requirements</a>.
+Running the EnableRemote.exe from that page on the remote machines
+may fix things.</p>
+
+<div class="panel panel-primary help-panel-pro">
+<div class="panel-heading">
+<h3 class="panel-title">Pro Classic only</h3>
+</div>
+<div class="panel-body">
+<p>
+These features are only available in Ninite Pro Classic.
+</p>
+<p>
+We're working on documentation for the new Pro web interface. For now the available help for that is inline in the interface.
+</p>
+<p>
+<a href="../../request_trial.html" class="btn btn-primary">Get a Free Trial</a> or <a href="../../pro.html" class="btn btn-default">Learn more about Ninite Pro</a>
+</p>
+</div>
+</div>
+
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="footer">
+<div class="container text-center">
+<ul class="list-inline">
+<li><a class="footer-link" href="../../jobs.html">jobs</a></li>
+<li><a class="footer-link" href="../../about.html">about</a></li>
+<li><a class="footer-link" href="../../press.html">press</a></li>
+<li><a class="footer-link" href="../../news.html">updates</a></li>
+<li><a class="footer-link" href="../../security.html">security</a></li>
+<li><a class="footer-link" href="../../privacy.html">privacy</a></li>
+<li><a class="footer-link" href="../../terms.html">terms</a></li>
+</ul>
+<p class="small">
+&copy; Secure by Design Inc
+</p>
+</div>
+</div>
+
+<script src="../../static/js/jquery-3.6.4.min-9663b61e980ed29d7a6ce3726c3714e6.js"></script>
+<script src="../../static/js/collapse-efe73e03e8fffec0dacb5abe412f4d78.js"></script>
+<script src="../../static/js/dropdown-54e9cfe90f65ad9a867ff67615ccac74.js"></script>
+<script src="../../static/js/masonry.pkgd.min-04eaba070e1a2d535fb026e5e7b5b399.js"></script>
+<script src="../../static/js/ninite-ccd74b2fb79726087e7e5cea74627caf.js"></script>
+</body>
+
+<!-- Mirrored from ninite.com/help/features/remote.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 30 Sep 2024 06:21:02 GMT -->
+</html>

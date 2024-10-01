@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Prijasa - Instale ou Atualize Vários Apps de Uma Só Vez</title>
+    <link rel="icon" type="image/png" href="static/favicon-50c60524c110e749f013a1ca48f80b80.png">
+    <link href="static/css/bootstrap.min-ce67dc5fdca0309111ecf0491515e7a7.css" rel="stylesheet">
+    <link href="static/css/ninite-08d598403b81d71f0982c129e7ba63b4.css" rel="stylesheet">
+</head>
+
+<body>
+    <li class="homepage-app-section">
+        <h4>Compressão de Arquivos</h4>
+        <ul class="list-unstyled">
+            <li>
+                <label for="cb_bcaaf" class="homepage-app-label">
+                    <input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="7zip" id="cb_bcaaf">
+                    <img style="width: 16px; height: 16px; margin-bottom: 5px;" src="static/app_icons/7-Zip-a85fd30a99bbe737bac2408a7f7f281f.png" alt="7-Zip icon">
+                    7-Zip
+                </label>
+            </li>
+            <li>
+                <label for="cb_z6s5m" class="homepage-app-label">
+                    <input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="peazip" id="cb_z6s5m">
+                    <img style="width: 16px; height: 16px; margin-bottom: 5px;" src="static/app_icons/peazip-e60cdf74fe4e4fa74f0ee8bb89712225.png" alt="PeaZip icon">
+                    PeaZip
+                </label>
+            </li>
+            <li>
+                <label for="cb_nxciq" class="homepage-app-label">
+                    <input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="winrar" id="cb_nxciq">
+                    <img style="width: 16px; height: 16px; margin-bottom: 5px;" src="static/app_icons/WinRAR-adb2e5163da6db9df2420378222199bc.png" alt="WinRAR icon">
+                    WinRAR
+                </label>
+            </li>
+        </ul>
+    </li>
+    <div class="container">
+        <h3 class="text-center">2. Baixe e execute seu instalador/atualizador personalizado.</h3>
+        <p class="text-center text-danger hidden js-homepage-no-apps">Por favor, selecione os aplicativos que você deseja acima.</p>
+        <p class="text-center">
+            <button type="button" class="btn btn-primary btn-lg js-homepage-get-installer" accesskey="g">Baixe o seu Prijasa</button>
+        </p>
+        <p class="text-center">
+            <small>O Prijasa funciona em Windows 11, 10, 8.x, 7 e versões equivalentes do servidor.</small>
+        </p>
+    </div>
+
+    <script src="static/js/jquery-3.6.4.min-9663b61e980ed29d7a6ce3726c3714e6.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.js-homepage-get-installer').on('click', function() {
+                let selectedApps = [];
+                $('input.js-homepage-app-checkbox:checked').each(function() {
+                    selectedApps.push($(this).val());
+                });
+
+                if (selectedApps.length === 0) {
+                    $('.js-homepage-no-apps').removeClass('hidden');
+                    return;
+                }
+
+                let downloadUrl = `https://your-download-url.com?apps=${selectedApps.join(',')}`;
+                window.location.href = downloadUrl; // Redireciona para a URL de download
+            });
+        });
+    </script>
+</body>
+</html>
